@@ -1,6 +1,5 @@
 #Day_1 30 Days of Python Code
 #Exercise : Level 01
-import math
 
 print(3 + 4)
 print(3 - 4)
@@ -32,12 +31,3 @@ print(type(['Asabeneh', 'Python', 'Finland']))
 print(type(name))
 print(type(f_name))
 print(type(country))
-
-print('\n')
-#Exercise 3, No 2.
-#Eculidian Distance between (2, 3) and (10, 8)
-
-x1, x2 = 2, 10
-y1, y2 = 3, 8
-d = math.sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2))
-print('Euclidian Distance: {}'.format(d))
