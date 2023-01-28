@@ -16,7 +16,7 @@ str_3 = 'All'
 statements = str_1 + space + str_2 + space + str_3
 print(statements)
 
-# number 3 - 9
+# number 3 - 14
 company = 'Coding For All'
 print(company)
 print(len(company))
@@ -42,8 +42,14 @@ print(challenge[0])
 print(challenge[-1])
 print(challenge[10])
 
-#18-19
+# Number 18
+sta_ = 'Python For Everyone'
+print(sta_[0], sta_[7], sta_[11])
 
+# Number 19
+print(challenge[0], challenge[7], challenge[11])
+
+# Number 20 - 30
 print(challenge.index('C'))
 print(challenge.index('F'))
 
