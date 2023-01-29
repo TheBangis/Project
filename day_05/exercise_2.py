@@ -231,6 +231,16 @@ countries = [
   'Zimbabwe',
 ]
 
+countries_length = len(countries)
+
+if countries_length % 2 == 0:
+  middle_c = countries[countries_length / 2] 
+else:
+  middle_c = countries[countries_length // 2] 
+print(middle_c)
+print(countries.index('Lesotho'))
+
+
 # Number 3
 countries_lsts = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 first_country, second_country, third_country, *rest = countries_lsts
