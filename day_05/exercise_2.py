@@ -228,17 +228,22 @@ countries = [
   'Vietnam',
   'Yemen',
   'Zambia',
-  'Zimbabwe',
+  'Zimbabwe'
 ]
 
 countries_length = len(countries)
 
 if countries_length % 2 == 0:
-  middle_c = countries[countries_length / 2] 
+  middle_1 = countries[countries_length // 2] 
+  middle_2 = countries[countries_length // 2 -  1]
+  middle_c = '{} & {}'.format(middle_1, middle_2)
+
 else:
   middle_c = countries[countries_length // 2] 
 print(middle_c)
-print(countries.index('Lesotho'))
+
+
+# Number 2
 
 
 # Number 3

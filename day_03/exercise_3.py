@@ -1,7 +1,6 @@
 # Exercise Day 3
-"""" import math
 
-# exercise number 1 - 3 
+# exercise number 1-3 
 age = 25
 height = 1.92
 c_num = 2j
@@ -93,7 +92,7 @@ minutes = 60
 second = 60
 one_year = 365
 second_lived = hours * minutes * second * one_year * years
-print('You have lived fo {} seconds'.format(second_lived))"""
+print('You have lived fo {} seconds'.format(second_lived))
 
 #exercise number 23
 list = [[1, 1, 1, 1, 1],

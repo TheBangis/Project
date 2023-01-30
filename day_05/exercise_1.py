@@ -1,5 +1,5 @@
 # Exercise Day 05
-""""
+
 # Number 01
 lst = []
 
@@ -106,13 +106,6 @@ print(front_end)
 full_stack = front_end.copy()
 full_stack.insert(5, 'Python')
 full_stack.insert(5, 'SQL')
-print(full_stack)"""
+print(full_stack)
 
-""" Challenge: 
-Exercise (2) Day 05"""
 
-# Number 01
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-ages.sort()
-print(ages)
