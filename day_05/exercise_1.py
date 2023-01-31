@@ -1,4 +1,4 @@
-# Exercise Day 05
+# Exercise: Level 1 - Day 05
 
 # Number 01
 lst = []

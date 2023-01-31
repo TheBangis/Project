@@ -1,5 +1,5 @@
 """ Challenge: 
-Exercise (2) Day 05"""
+Exercise: Level 2 -  Day 05"""
 
 # Number 01
 
@@ -242,9 +242,7 @@ else:
   middle_c = countries[countries_length // 2] 
 print(middle_c)
 
-
-# Number 2
-
+# Number 02
 
 # Number 3
 countries_lsts = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
