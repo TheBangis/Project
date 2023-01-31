@@ -5,8 +5,8 @@ Exercise - Level 1, Day 06: Tuple'''
 empty_tuple = ()
 
 # Number 02
-sisters = 'hafsa', 'ummulkhairi', 'amina', 'ummi', 'halima', 'rukayyah'
-brothers = 'ibrahim', 'hamza', 'abubakar', 'halifa', 'mubarak'
+sisters = ('hafsa', 'ummulkhairi', 'amina', 'ummi', 'halima', 'rukayyah')
+brothers = ('ibrahim', 'hamza', 'abubakar', 'halifa', 'mubarak')
 siblings = sisters + brothers
 print(siblings)
 
