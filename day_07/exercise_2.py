@@ -23,4 +23,8 @@ B_A = B.union(A)
 print('A join with B is ', A_B, 'and B join with A is ', B_A)
 
 # Number 6
-print(B.difference(A))
+print(A.symmetric_difference(B))
+
+# Number 7
+del A
+del B
