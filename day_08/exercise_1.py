@@ -43,10 +43,8 @@ list_tp = student.items()
 print(list_tp)
 
 # Number 10
-del student['age']
-student.pop('skill')
+del student['age'] # or student.pop('skill')
 print(student)
 
 # Number 11
 del student
-print(student)
