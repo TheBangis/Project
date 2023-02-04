@@ -25,6 +25,8 @@ if 'skills' in person:
          result = 'The middle item is {} '.format(mid_1)  
 print(result)
 
+
+
 skill = person['skills']
 if 'skills' in person:
     if 'Python' in skill:
@@ -32,6 +34,12 @@ if 'skills' in person:
     else:
         print('Person has no Python skill')
 
+'''' 
+ * If a person skills has only JavaScript and React, print('He is a front end developer'),
+ if the person skills has Node, Python, MongoDB, print('He is a backend developer'), if the person
+ skills has React, Node and MongoDB, Print('He is a fullstack developer'), else print('unknown title') - 
+ for more accurate results more conditions can be nested!
+'''
+
 if person['is_marred'] == True and person['country'] == 'Finland':
     print('{} {} lives in {}. He is married'.format(person['first_name'], person['last_name'], person['country']))
-    
