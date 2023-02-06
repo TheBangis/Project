@@ -23,6 +23,7 @@ while x >= 0:
 
 # Number 3
 
+
 # Number 4
 for i in range(8):
     for x in range(7):
@@ -42,7 +43,7 @@ for i in lst:
     
 
 # Number 7
-for even in range(0, 101, 2):
+for even in range(0, 100, 2):
     print(even)
 
 # Number 8
