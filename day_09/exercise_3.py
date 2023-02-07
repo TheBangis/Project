@@ -43,3 +43,4 @@ if 'skills' in person:
 
 if person['is_marred'] == True and person['country'] == 'Finland':
     print('{} {} lives in {}. He is married'.format(person['first_name'], person['last_name'], person['country']))
+

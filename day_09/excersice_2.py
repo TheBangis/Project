@@ -1,6 +1,6 @@
 
 ''' 30 Days of Python, Day 09
-Exercise 2: Level 2
+Exercise 2: Level 2'''
 
 # Number 1
 marks = int(input('enter marks: '))
@@ -39,35 +39,7 @@ if fruit in fruits:
     print('That fruit already exist in the list')
 else:
     fruits.append(fruit)
-    print(fruits) '''
-
-person={
-    'first_name': 'Asabeneh',
-    'last_name': 'Yetayeh',
-    'age': 250,
-    'country': 'Finland',
-    'is_marred': True,
-    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
-    'address': {
-        'street': 'Space street',
-        'zipcode': '02210' }
-    }
-
-skill_length = len(person['skills'])
-if 'skills' in person:
-    if skill_length % 2 == 0:
-        mid_1 = person['skills'][skill_length // 2]
-        mid_2 = person['skills'][skill_length // 2 - 1]
-        result = 'The middle items are {} & {}'.format(mid_1, mid_2)
-    else:
-         mid_1 = person['skills'][skill_length // 2]
-         result = 'The middle item is {} '.format(mid_1)  
-print(result)
-
-skill = person['skills']
-if 'skills' in person:
-    if 'Python' in skill:
-        print('Person has Python skill')
+    print(fruits) 
 
 
 
