@@ -50,3 +50,18 @@ def calculate_slope(x1, y1, x2, y2):
     m = (y2 - y1) / (x2 - x1)
     return m
 print(calculate_slope(2,3,4,5))
+
+# Number 7
+import math
+def solve_quadratic_eqn(a, b, c):
+    x1 = ((-b) + math.sqrt(pow(b,2) - 4 * a * c)) / (2 * a)
+    x2 = ((-b) - math.sqrt(pow(b,2) - 4 * a * c)) / (2 * a)
+    result = 'x1 = {} and x2 = {}'.format(x1, x2)
+    return result
+print(solve_quadratic_eqn(1, -5, 6))
+
+# Number 8
+def print_list(lst):
+    for i in lst:
+        return lst[i]
+print(print_list(['august', 'october']))
