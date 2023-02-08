@@ -63,5 +63,21 @@ print(solve_quadratic_eqn(1, -5, 6))
 # Number 8
 def print_list(lst):
     for i in lst:
-        return lst[i]
-print(print_list(['august', 'october']))
+        print(i) 
+print_list(['banana', 'mango', 'apple'])
+
+# Number 9
+def reverse_list(lst):
+    rev_lists = []
+    for i in range(len(lst)-1, -1, -1):
+        rev_lists.append(lst[i])
+    return rev_lists
+print(reverse_list(['python', 'is', 'fun']))
+
+# Number 10
+def capitalize_list_items(lst):
+    cap_lists = []
+    for i in range(len(lst)):
+        cap_lists.append(lst[i].capitalize())
+    return cap_lists
+print(capitalize_list_items(['boy', 'girl', 'man', 'woman']))
