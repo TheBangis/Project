@@ -204,5 +204,5 @@ for i in countries:
 
 # Number 2
 lists = ['banana', 'orange', 'mango', 'lemon']
-print(lists.reverse())
+
        
