@@ -88,3 +88,35 @@ def add_item(lst, item):
     lst.append(item)
     return lst
 print(add_item([2,3,4,5], 6))
+
+# Number 12
+def remove_item(lst, item):
+    lst.remove(item)
+    return lst
+print(remove_item([3,4,6,7], 4))
+
+# Number 13
+def sum_of_numbers(n):
+    sum_n = 0
+    for i in range(n + 1):
+        sum_n+=i
+    return sum_n
+print(sum_of_numbers(10))
+
+# Number 14
+def sum_of_odds(odd):
+    sum_of_odd = 0
+    for i in range(odd + 1):
+        if i % 2 != 0:
+            sum_of_odd+=i
+    return sum_of_odd
+print(sum_of_odds(5)) 
+
+# Number 15
+def sum_of_evens(even):
+    even_s = 0
+    for i in range(0, even + 1, 2):
+        even_s+=i
+    return even_s
+print(sum_of_evens(10))
+
