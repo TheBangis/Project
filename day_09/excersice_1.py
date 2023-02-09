@@ -1,4 +1,6 @@
-'''2
+''' 30 Days of Python, Day 09
+Exercise 1: Level 1'''
+
 # Number 1
 age = int(input('Enter your age: '))
 if age >= 18:
@@ -16,7 +18,7 @@ if your_age > my_age:
          result = "You are {} years older than me.".format(your_age - my_age)
 else:
     result = 'you are not older than me.'
-print(result)'''
+print(result)
 
 # Number 3
 a = int(input('enter a: '))
@@ -27,3 +29,4 @@ elif a < b:
     print('{} is smaller than {}'.format(a,b))
 else:
     print('{} is equal to {}'.format(a,b))
+
