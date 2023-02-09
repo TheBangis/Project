@@ -81,3 +81,10 @@ def capitalize_list_items(lst):
         cap_lists.append(lst[i].capitalize())
     return cap_lists
 print(capitalize_list_items(['boy', 'girl', 'man', 'woman']))
+
+
+# Number 11
+def add_item(lst, item):
+    lst.append(item)
+    return lst
+print(add_item([2,3,4,5], 6))
