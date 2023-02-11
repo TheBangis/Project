@@ -1,5 +1,5 @@
 ''' 30  Days od Python - Day 11
-Excercise 1: Level 2'''
+Excercise 1: Level 1'''
 
 # Number 1
 def add_two_numbers(num1, num2):
