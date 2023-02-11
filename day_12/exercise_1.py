@@ -1,8 +1,9 @@
 ''' 30 Days of Python - Day 12
 Exercise 1: level 1--------------- Modules'''
 
-import random
+from random import random, randint
 import string
+import random
 
 # Number 1
 def random_user_id():
