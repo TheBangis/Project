@@ -1,3 +1,5 @@
+''' 30 Day days of Python : Day 13
+Exercises: Comprehension list'''
 
 # Number 1
 numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
@@ -29,5 +31,7 @@ full_name = [(name[0] + ' ' + name[1]) for row in names for name in row ]
 print(full_name)
 
 # Number 7. Write a lambda function which can solve a slope or y-intercept of linear functions.
+# y = mx+c
+#  slope = m 
 y = lambda m, x, c:m
 print(y(3,6,7))
