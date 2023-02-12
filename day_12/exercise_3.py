@@ -14,5 +14,5 @@ print(shuffle_list([3,'amir',4,5,'babangida',7,8,0,6,1,'nafisa']))
 
 # Number 2 : Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
 def unique_array():
-    return 
+  return [randint(0,9) for i in range(7)]
 print(unique_array())
